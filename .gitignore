@@ -24,6 +24,9 @@ profile.cov
 go.work
 go.work.sum
 
+# Configuration file (use config.example.yaml as template)
+config.yaml
+
 # env file
 .env
 

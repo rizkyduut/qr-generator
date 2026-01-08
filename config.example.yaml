@@ -1,0 +1,9 @@
+server:
+  port: ":8080"             # Server port (include colon prefix, e.g., ":8080")
+  max_body_size: 1048576    # Maximum request body size in bytes (default: 1MB)
+  read_timeout: 10          # Maximum duration for reading the entire request (in seconds)
+  write_timeout: 10         # Maximum duration before timing out writes of the response (in seconds)
+
+security:
+  api_key: ""                     # API key for authentication (change in production)
+  enable_security_headers: true   # Enable security headers (CSP, X-Frame-Options, etc.)
